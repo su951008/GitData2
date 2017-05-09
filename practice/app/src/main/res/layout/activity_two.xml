@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="comic_practice.mycomic.activity.TwoActivity">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/frameLayout"
+        android:layout_weight="0.1"
+
+
+        >
+
+    </FrameLayout>
+
+
+      >
+
+
+         <LinearLayout
+             android:layout_weight="0.9"
+         android:background="@mipmap/title_"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:orientation="horizontal">
+             <LinearLayout
+                 android:id="@+id/lin_bt1"
+                 android:layout_weight="1"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:orientation="vertical">
+                 <ImageView
+                     android:focusableInTouchMode="false"
+                     android:gravity="center_horizontal"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:id="@+id/imageBt1"
+                     android:src="@mipmap/bt1_1"/>
+         <Button
+             android:focusableInTouchMode="false"
+             android:layout_weight="1"
+             android:id="@+id/bt_book"
+             android:text="图书"
+             android:background="#F9471B"
+            android:gravity="center_horizontal"
+             android:textSize="20sp"
+             android:textColor="#FFFFFF"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+            />
+
+             </LinearLayout>
+             <LinearLayout
+                 android:layout_weight="1"
+                 android:id="@+id/lin_bt2"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:orientation="vertical">
+                 <ImageView
+                     android:focusableInTouchMode="false"
+                     android:gravity="center_horizontal"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:id="@+id/imageBt2"
+                     android:src="@mipmap/bt2"/>
+                 <Button
+
+                     android:focusableInTouchMode="false"
+                     android:layout_weight="1"
+                     android:id="@+id/bt_update"
+                     android:text="我的收藏"
+                     android:background="#F9471B"
+                     android:gravity="center_horizontal"
+                     android:textSize="20sp"
+                     android:textColor="#FFFFFF"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     />
+             </LinearLayout>
+             <LinearLayout
+                 android:layout_weight="1"
+                 android:id="@+id/lin_bt3"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:orientation="vertical">
+                 <ImageView
+                     android:focusableInTouchMode="false"
+                     android:gravity="center_horizontal"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:id="@+id/imageBt3"
+                     android:src="@mipmap/bt3"/>
+                 <Button
+                     android:focusableInTouchMode="false"
+                     android:layout_weight="1"
+                     android:id="@+id/bt_my"
+                     android:text="我的"
+                     android:background="#F9471B"
+                     android:gravity="center_horizontal"
+                     android:textSize="20sp"
+                     android:textColor="#FFFFFF"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     />
+             </LinearLayout>
+     </LinearLayout>
+
+</LinearLayout>
